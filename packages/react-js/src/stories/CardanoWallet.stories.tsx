@@ -5,8 +5,8 @@ export default {
     component: CardanoWallet
 }
 
-const Template = () => (
-    <CardanoWallet />
-)
-
-export const Primary = Template.bind({})
+export const Primary = {
+    args: {
+        buttonText: "Cardano Wallet"
+    },
+  };
