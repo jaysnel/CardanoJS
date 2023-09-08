@@ -3,7 +3,8 @@
 # dependencies
 /node_modules
 packages/node_modules
-/packages/react-js/node_modules
+/packages/*/node_modules
+/packages/*/dist
 
 /.pnp
 .pnp.js
@@ -21,6 +22,7 @@ packages/node_modules
 .env.development.local
 .env.test.local
 .env.production.local
+/packages/*/.env
 
 # misc react-js
 .DS_Store
